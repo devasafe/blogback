@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 app.use(cors({
-  origin: 'https://blogfront-tau.vercel.app/',
+  origin: 'https://blogfront-five.vercel.app',
   methods: ['GET','POST','PUT','DELETE','OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
